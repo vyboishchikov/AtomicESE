@@ -1,43 +1,17 @@
-<html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AtomicESE &ndash; Solvation Free Energy Evaluation</title>
-    <style>
-        body {font-family: 'Open Sans', sans-serif}
-        h1 {font-size: 1.8em}
-        h2 {font-size: 1.5em; margin-top: 20px}
-        p {margin-top: 12px}
-        ol {padding-left: 20px}
-        ol li {margin: 0}
-        a {color: blue;text-decoration: none} /* Ensures hyperlinks are blue */
-        a:hover {text-decoration: underline}
-        code {
-            display: block;
-            background-color: #f8f9fa;
-            padding: 10px;
-            margin-top: 8px;
-            border: 1px solid #e9ecef;
-            border-radius: 5px;
-            font-family: 'Consolas', 'Courier New', monospace;
-        }
-    </style>
-</head>
-<body>
 <h1>AtomicESE &ndash; a Neural Network for Evaluation of Solvation Free Energy by Atomic Contributions <i>(preliminary)</i></h1>
-
+<font face="Open Sans">
 <h2>Introduction and User's Guide</h2>
 
 <p><i>AtomicESE</i> is a method for evaluating the <b>solvation free energy</b> of molecules in organic solvents. 
 It is based on a <i>Dense Neural Network</i> and requires only the solute molecular geometry. Details about the method 
 are not provided at this time as the related paper is currently under review.</p>
 
-<p>&Delta;<i>G</i><sub>solv</sub> can be calculated using a preliminary limited version of the <i>AtomicESE</i> program, 
-which can be downloaded free of charge:</p>
+<p>&Delta;<i>G</i><sub>solv</sub> can be calculated using the <i>AtomicESE</i> program, 
+which can be downloaded free of charge:
+<br><a href="https://github.com/vyboishchikov/AtomicESE/blob/main/ESE-DeltaH-DNN.exe">AtomicESE.exe</a></p>
 
-<p><a href="https://github.com/vyboishchikov/AtomicESE/blob/main/ESE-DeltaH-DNN.exe">AtomicESE.exe</a></p>
-
-<p>The full version will be provided later.</p>
+<p>For the moment, a preliminary limited Windows version is available only. The full version (both Windows and Linux)
+will be provided later.</p>
 
 <p>To run the program from the command line, use the following syntax:</p>
 
