@@ -8,7 +8,7 @@ are not provided at this time as the related paper is currently under review.</p
 
 <p>&Delta;<i>G</i><sub>solv</sub> can be calculated using the <i>AtomicESE</i> program, 
 which can be downloaded free of charge:
-<br><a href="https://github.com/vyboishchikov/AtomicESE/blob/main/ESE-DeltaH-DNN.exe">AtomicESE.exe</a></p>
+<br><a href="https://github.com/vyboishchikov/AtomicESE/blob/main/AtomicESE.exe">AtomicESE.exe</a></p>
 
 <p>For the moment, a preliminary limited Windows version is available only. The full version (both Windows and Linux)
 will be provided later.</p>
