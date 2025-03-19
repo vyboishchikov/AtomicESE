@@ -18,7 +18,7 @@ will be provided later.</p>
 <code>AtomicESE.exe <i>xyz-file</i> -solvent <i>solvent</i> -charge <i>charge</i></code>
 
 <p><i><b>Warning:</b></i> The <i>xyz-file</i> should contain atomic symbols (or numbers) and Cartesian coordinates (in &#8491;). 
-Ensure there is an empty line at the end of the file. Do not include any header in the file.</p>
+Ensure there is an empty line at the end of the file. Do not include any header in the file. An input file example can be found <a href=https://github.com/vyboishchikov/AtomicESE/blob/main/input-example-0423brt.xyz>here</a>.</p>
 
 <p>If you use results calculated by the <i>AtomicESE</i> program, please include at least the following citations:</p>
 
