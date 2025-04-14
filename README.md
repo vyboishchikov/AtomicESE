@@ -1,9 +1,9 @@
-<h1>AtomicESE &ndash; a Neural Network for Evaluation of Solvation Free Energy by Atomic Contributions <i>(preliminary)</i></h1>
+<h1>AtomicESE &ndash; a Neural Network for Evaluation of Solvation Free Energy by Atomic Contributions</h1>
 <font face="Open Sans">
 <h2>Introduction and User's Guide</h2>
 
 <p><i>AtomicESE</i> is a method for evaluating the <b>solvation free energy</b> &Delta;<i>G°</i><sub>solv</sub> of molecules in organic solvents. 
-It is based on a <i>Dense Neural Network</i> and requires only the solute molecular geometry. <i>AtomicESE</i> calculates &Delta;<i>G°</i><sub>solv</sub> by summing atomic contributions, each evaluated by a dense neural network [2]. This atomic network uses 13 physically relevant input features, comprising six local atomic features, two global charge-related molecular properties, and five solvent-specific properties. For neutral solutes, AtomicESE achieves an average RMSE below 0.6 kcal/mol. AtomicESE also works reliably for ionic solutes.</p>
+It is based on a <i>Dense Neural Network</i> and requires only the solute molecular geometry. <i>AtomicESE</i> calculates &Delta;<i>G°</i><sub>solv</sub> by summing atomic contributions, each evaluated by a dense neural network [2]. This atomic network uses 13 physically relevant input features, comprising six local atomic features, two global charge-related molecular properties, and five solvent-specific properties. For neutral solutes, AtomicESE achieves an average RMSE below 0.6 kcal/mol. It also works reliably for ionic solutes.</p>
 
 <p>&Delta;<i>G</i><sub>solv</sub> can be calculated using the <i>AtomicESE</i> program, 
 which can be downloaded free of charge:
