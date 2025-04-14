@@ -2,9 +2,8 @@
 <font face="Open Sans">
 <h2>Introduction and User's Guide</h2>
 
-<p><i>AtomicESE</i> is a method for evaluating the <b>solvation free energy</b> of molecules in organic solvents. 
-It is based on a <i>Dense Neural Network</i> and requires only the solute molecular geometry. Details about the method 
-are not provided at this time as the related paper is currently under review.</p>
+<p><i>AtomicESE</i> is a method for evaluating the <b>solvation free energy</b> &Delta;G°<sub>solv</sub> of molecules in organic solvents. 
+It is based on a <i>Dense Neural Network</i> and requires only the solute molecular geometry. <i>AtomicESE</i> calculates &Delta;G°<sub>solv</sub> by summing atomic contributions, each evaluated by a dense neural network. This atomic network uses 13 physically relevant input features, comprising six local atomic features, two global charge-related molecular properties, and five solvent-specific properties. For neutral solutes, AtomicESE achieves an average RMSE below 0.6 kcal/mol. AtomicESE also works reliably for ionic solutes.</p>
 
 <p>&Delta;<i>G</i><sub>solv</sub> can be calculated using the <i>AtomicESE</i> program, 
 which can be downloaded free of charge:
