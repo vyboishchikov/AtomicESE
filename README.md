@@ -8,14 +8,14 @@ are not provided at this time as the related paper is currently under review.</p
 
 <p>&Delta;<i>G</i><sub>solv</sub> can be calculated using the <i>AtomicESE</i> program, 
 which can be downloaded free of charge:
-<br><a href="https://github.com/vyboishchikov/AtomicESE/blob/main/AtomicESE.exe">AtomicESE.exe</a></p>
-
-<p>For the moment, a preliminary limited Windows version is available only. The full version (both Windows and Linux)
-will be provided later.</p>
+<br><a href="https://github.com/vyboishchikov/AtomicESE/blob/main/AtomicESE.exe">AtomicESE.exe</a> &ndash; Windows version;</p>
+<br><a href="https://github.com/vyboishchikov/AtomicESE/blob/main/AtomicESE.x">AtomicESE.exe</a> &ndash; Linux version;</p>
 
 <p>To run the program from the command line, use the following syntax:</p>
 
 <code>AtomicESE.exe <i>xyz-file</i> -solvent <i>solvent</i> -charge <i>charge</i></code>
+
+<p> The <code>-charge</code> option is optional; the default charge is 0.</p>
 
 <p><i><b>Warning:</b></i> The <i>xyz-file</i> should contain atomic symbols (or numbers) and Cartesian coordinates (in &#8491;). 
 Ensure there is an empty line at the end of the file. Do not include any header in the file. An input file example can be found <a href=https://github.com/vyboishchikov/AtomicESE/blob/main/input-example-0423brt.xyz>here</a>.</p>
@@ -24,7 +24,7 @@ Ensure there is an empty line at the end of the file. Do not include any header 
 
 <ol>
     <li>S. F. Vyboishchikov, <i>AtomicESE program</i>, Girona, <b>2024</b>.</li>
-    <li>S. F. Vyboishchikov, <i>submitted</i>.</li>
+    <li>S. F. Vyboishchikov, <i> J. Comput. Chem.</i>, <b>2025</b>, <i>46</i>, in press. DOI: 10.1002/jcc.70104</i>.</li>
     <li>S. F. Vyboishchikov, <i>Liquids</i>, <b>2024</b>, <i>4</i>, 525&ndash;538. 
     <a href="https://doi.org/10.3390/liquids4030030">DOI: 10.3390/liquids4030030</a></li>
     <li>S. F. Vyboishchikov, <i>J. Chem. Theory Comput.</i>, <b>2023</b>, <i>19</i>, 8340&ndash;8350. 
