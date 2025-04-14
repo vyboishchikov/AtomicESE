@@ -8,11 +8,10 @@ are not provided at this time as the related paper is currently under review.</p
 
 <p>&Delta;<i>G</i><sub>solv</sub> can be calculated using the <i>AtomicESE</i> program, 
 which can be downloaded free of charge:
-<br><a href="https://github.com/vyboishchikov/AtomicESE/blob/main/AtomicESE.exe">AtomicESE.exe</a> &ndash; Windows version;</p>
-<br><a href="https://github.com/vyboishchikov/AtomicESE/blob/main/AtomicESE.x">AtomicESE.exe</a> &ndash; Linux version;</p>
+<br><a href="https://github.com/vyboishchikov/AtomicESE/blob/main/AtomicESE.exe">AtomicESE.exe</a> &ndash; Windows version;
+<br><a href="https://github.com/vyboishchikov/AtomicESE/blob/main/AtomicESE.x">AtomicESE.x</a> &ndash; Linux version;</p>
 
 <p>To run the program from the command line, use the following syntax:</p>
-
 <code>AtomicESE.exe <i>xyz-file</i> -solvent <i>solvent</i> -charge <i>charge</i></code>
 
 <p> The <code>-charge</code> option is optional; the default charge is 0.</p>
