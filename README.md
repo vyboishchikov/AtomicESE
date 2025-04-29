@@ -3,7 +3,7 @@
 <h2>Introduction and User's Guide</h2>
 
 <p><i>AtomicESE</i> is a method for evaluating the <b>solvation free energy</b> &Delta;<i>G°</i><sub>solv</sub> of molecules in organic solvents. 
-It is based on a <i>Dense Neural Network</i> and requires only the solute molecular geometry. <i>AtomicESE</i> calculates &Delta;<i>G°</i><sub>solv</sub> by summing atomic contributions, each evaluated by a dense neural network [2]. This atomic network uses 13 physically relevant input features, comprising six local atomic features, two global charge-related molecular properties, and five solvent-specific properties. For neutral solutes, AtomicESE achieves an average RMSE below 0.6 kcal/mol. It also works reliably for ionic solutes.</p>
+It is based on a <i>Dense Neural Network</i> and requires only the solute molecular geometry. <i>AtomicESE</i> calculates &Delta;<i>G°</i><sub>solv</sub> by summing atomic contributions, each evaluated by a dense neural network [2]. This atomic network uses 13 physically relevant input features, comprising six local atomic features, two global charge-related molecular properties, and five solvent-specific properties. For neutral solutes, AtomicESE achieves an average RMSE below 0.6 kcal/mol. It also works for ionic solutes.</p>
 
 <p>&Delta;<i>G°</i><sub>solv</sub> can be calculated using the <i>AtomicESE</i> program, 
 which can be downloaded free of charge:
@@ -13,16 +13,15 @@ which can be downloaded free of charge:
 <p>To run the program from the command line, use the following syntax:</p>
 <code>AtomicESE.exe <i>xyz-file</i> -solvent <i>solvent</i> -charge <i>charge</i></code>
 
-<p> The <code>-charge</code> option is optional; the default charge is 0.</p>
+<p> The <code>-charge</code> option is optional; the default charge is 0. To print contribution from individual atoms, you may use the <code>-PrintAtomicContributions</code> option</p>
 
-<p><i><b>Warning:</b></i> The <i>xyz-file</i> should contain atomic symbols (or numbers) and Cartesian coordinates (in &#8491;). 
-Ensure there is an empty line at the end of the file. Do not include any header in the file. An input file example can be found <a href=https://github.com/vyboishchikov/AtomicESE/blob/main/input-example-0423brt.xyz>here</a>.</p>
+<p><i><b>Warning:</b></i> The <i>xyz-file</i> should contain atomic symbols (or numbers) and Cartesian coordinates (in &#8491;). Do not include any header in the file. An input file example can be found <a href=https://github.com/vyboishchikov/AtomicESE/blob/main/input-example-0423brt.xyz>here</a>.</p>
 
 <p>If you use results calculated by the <i>AtomicESE</i> program, please include at least the following citations:</p>
 
 <ol>
     <li>S. F. Vyboishchikov, <i>AtomicESE program</i>, Girona, <b>2024</b>.</li>
-    <li>S. F. Vyboishchikov, <i> J. Comput. Chem.</i>, <b>2025</b>, <i>46</i>, in press. DOI: 10.1002/jcc.70104</i>.</li>
+    <li>S. F. Vyboishchikov, <i> J. Comput. Chem.</i>, <b>2025</b>, <i>46</i>, e70104. <a href="https://onlinelibrary.wiley.com/doi/10.1002/jcc.70104">DOI: 10.1002/jcc.70104</a>.</li>
     <li>S. F. Vyboishchikov, <i>Liquids</i>, <b>2024</b>, <i>4</i>, 525&ndash;538. 
     <a href="https://doi.org/10.3390/liquids4030030">DOI: 10.3390/liquids4030030</a></li>
     <li>S. F. Vyboishchikov, <i>J. Chem. Theory Comput.</i>, <b>2023</b>, <i>19</i>, 8340&ndash;8350. 
